@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string EntrB()
+{
+    Console.WriteLine("Введите B");
+    return Console.ReadLine();
+}
