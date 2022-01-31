@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿void div()
+{
+    Console.WriteLine(int.Parse(EntrA()) / int.Parse(EntrB()));
+}
