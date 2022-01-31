@@ -1,45 +1,47 @@
-<<<<<<< HEAD
-﻿Console.WriteLine("Начало работы программы");
+Console.WriteLine("Начало работы программы");
 int a = int.Parse(EntrA());
 int b = int.Parse(EntrB());
-sum();
-sub();
-mult();
-div();
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-﻿string EntrA()
+Console.WriteLine("Выберите действие: (1 - sum, 2 - sub, 3 - mult, 4 - div) ");
+string temp = Console.ReadLine();
+if (temp == "1")
+{
+    sum();
+}
+else if (temp == "2")
+{
+    sub();
+}
+else if (temp == "3")
+{
+    mult();
+}
+else if (temp == "4")
+{
+    div();
+}
+string EntrA()
 {
     Console.WriteLine("Введите а");
-=======
-﻿string EntrB()
+    return Console.ReadLine();
+}
+string EntrB()
 {
     Console.WriteLine("Введите B");
->>>>>>> in_b
     return Console.ReadLine();
-=======
-﻿void sum()
-{
-    Console.WriteLine(int.Parse(EntrA()) + int.Parse(EntrB()));
->>>>>>> sum
-=======
-﻿void sub()
-{
-    Console.WriteLine(int.Parse(EntrA()) - int.Parse(EntrB()));
->>>>>>> sub
-=======
-﻿void mult()
-{
-    Console.WriteLine(int.Parse(EntrA()) * int.Parse(EntrB()));
->>>>>>> mult
-=======
-﻿void div()
-{
-    Console.WriteLine(int.Parse(EntrA()) / int.Parse(EntrB()));
->>>>>>> div
 }
->>>>>>> final
+void sum()
+{
+    Console.WriteLine(a + b);
+}
+void sub()
+{
+    Console.WriteLine(a - b);
+}
+void mult()
+{
+    Console.WriteLine(a * b);
+}
+void div()
+{
+    Console.WriteLine(a / b);
+}
