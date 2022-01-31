@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿string EntrA()
 {
     Console.WriteLine("Введите а");
@@ -20,4 +21,9 @@
 {
     Console.WriteLine(int.Parse(EntrA()) - int.Parse(EntrB()));
 >>>>>>> sub
+=======
+﻿void mult()
+{
+    Console.WriteLine(int.Parse(EntrA()) * int.Parse(EntrB()));
+>>>>>>> mult
 }
